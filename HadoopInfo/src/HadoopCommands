@@ -17,3 +17,6 @@ $hadoop jar /home/21stApril/hadoop_welcome.jar WordCount /wordCount   /output
  /wordCount ===>Input folder (It is contains all log files which are processing ready state)
  /output ===>Output folder (it is contains all out put files (here one success file,faile fill,One normal log files ))
    
+   
+  In Real application we can use Apache OOZIE (It is contains Dynamic schdular this schedular running dynamically according our requirements 
+   
