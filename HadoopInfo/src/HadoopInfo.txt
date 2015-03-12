@@ -1,0 +1,72 @@
+
+cp /media/cdrom/VMwareTools*.tar.gz ~/Desktop
+
+#cd /mnt/hgfs/64bit
+
+
+
+PWD: anji123
+
+groupUser :hadoop
+
+Name/ PWD:  hduser/hadoop123
+
+==========================================
+
+Hadoop Main concepts :::
+i)HDFS
+ii)MapReduce
+iii)PIG (Latin script)
+iv) HIVE,HBase(For DataWareHouse) OLTP,OLAP
+v)OOIZE(It is schedular Hadoop Jobs running purpose
+vi) For Data Import purpose :: Flume & Sqoop
+vii) Apache Mahout It is Mechine Running (Learing ) purpose
+Flume : For Unstructed or Semi strctured Data 
+SQOOP : For Structured Data
+
+
+
+NOTE: Webcrawler it Use for Geting website data into Backend System
+Hadoop :::
+i)Cloud Area (Free ) upto 50 Nodes
+ii)HornoWOrks Free
+iii)Mapper
+
+========================================
+
+SAP-HANA (It is internally using Hadoop )
+EMR(Amzon) ::Elastic Mapper Reducer
+======================================================
+
+Hadoop Principles:::
+i)Volume :Large data
+ii)Velocity:: Speed at new Data processing bcoz it is internally using blocks 
+iii)Variety :: Different form of data i)Structruted Data(RDMS)
+                                      ii) Semi Structred (Logs,App Server ,Web Server,Transcation Logs)
+				      iii) UnStructred :Images,Videos etc...
+iv)Veractity : Un certain Data : missing files
+v)Value :usefull value data (Data mining techins)
+
+=======================================================
+
+Big Data:
+i)Click Stream data
+ii) Wheather Data
+iii)Stock Exchange Data
+iv) Social media Data(FB,LinkedIn,Twitter,Google.Yahoo)
+v)Flipcart Data
+vii)Amzon Data
+viii)IMDB (International Movie DB)
+
+
+
+
+
+
+
+
+
+
+
+
+
