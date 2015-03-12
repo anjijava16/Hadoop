@@ -1,0 +1,19 @@
+$jps : Java process
+
+$hadoop fs -mkdir /wordcount ======>here wordcount folder created
+
+$hadoop fs -put /home/cfs/hadoop2.6/logs/*.log   /wordcount =====>here all log files will be stored into the wordcount folder
+$hadoop fs -ls /wordcount (it will display all logs  under wordcount
+
+$hadoop fs -cat /wordcount/abc.log  (It will read abc.log file)
+
+Running Basic Hadoop Example
+$hadoop jar /home/21stApril/hadoop_welcome.jar WordCount /wordCount   /output
+
+
+ hadoop_welcome.jar ===>it is jar file (Source) it containts Mapper,Reducer & one test class it might be WordCount
+ 
+ WordCount :Input Class Name (Main Method)
+ /wordCount ===>Input folder (It is contains all log files which are processing ready state)
+ /output ===>Output folder (it is contains all out put files (here one success file,faile fill,One normal log files ))
+   
