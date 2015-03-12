@@ -1,0 +1,172 @@
+history
+    1  cd /home
+    2  ls
+    3  cd /home/hduser/
+    4  ls
+    5  cp /mnt/hgfs/64bit/hadoop-1.0.4.tar.gz  /usr/local/
+    6  sudo cp /mnt/hgfs/64bit/hadoop-1.0.4.tar.gz  /usr/local/
+    7  cd /usr/local/
+    8  sudo tar -xzf hadoop-1.0.4.tar.gz 
+    9  sudo chown -R hduser:hadoop-1.0.4
+   10  sudo chown -R hduser:hadoop hadoop-1.0.4
+   11  sudo ln -s hadoop-1.0.4 hadoop
+   12  sudo chown -R hduser:hadoop hadoop
+   13  vi /usr/local/hadoop/conf/hadoop-env.sh
+   14  vi ~/.bashrc
+   15  exit
+   16  sudo yum install openssh -server
+   17  sudo yum install openssh - server
+   18  ssh - keygen
+   19  ssh -keygen
+   20  ssh-keygen
+   21  cat ~/.ssh/id_rsa.pub >> ~/.ssh/authorized_keys
+   22  chmod 700 ~/.ssh/authorized_keys
+   23  sudo service sshd start
+   24  sudo chkconfig sshd on
+   25  sudo service iptables stop
+   26  sudo chkconfig iptables off
+   27  ssh localhost
+   28  exit
+   29  hadoop namenode - format
+   30  start-all.sh
+   31  sudo service sshd status
+   32  jps
+   33  telnet 127.0.0.1 50070
+   34  cd ~/D*
+   35  cd /Desktop
+   36  ls
+   37  cd ..
+   38  ls
+   39  cd hduser/
+   40  ls
+   41  cd /Desktop
+   42  ls
+   43  cd /root/Desktop/Eclipse
+   44  su cd /root/Desktop/Eclipse
+   45  cd..
+   46  ls
+   47  cd ..
+   48  ls
+   49  cd ..
+   50  ls
+   51  exit
+   52  hadoop
+   53  jps
+   54  hadoop namenode - format
+   55  sudo service sshd status
+   56  jps
+   57  start-all.sh
+   58  jps
+   59  vi ~/.bashrc
+   60  vi ~/.bashc
+   61  exit
+   62  hadoop namenode - format
+   63  start -all.sh
+   64  start - all.sh
+   65  start- all.sh
+   66  start-all.sh
+   67  jps
+   68  sudo service sshd status
+   69  jps
+   70  vi /usr/local/hadoop/conf/hdfs-site.xml 
+   71  vi /usr/local/hadoop/conf/core-site.xml 
+   72  jps
+   73  hadoop namenode - format
+   74  jps
+   75  ps -ef | grep "namenode"
+   76  stop-all.sh
+   77  ps -ef | grep "namenode"
+   78  start-all.sh
+   79  jps
+   80  stop-all.sh
+   81  hadoop
+   82  hadoop namenode
+   83  sudo mkdir -p /app/hadoop/tmp
+   84  sudo chown -R hduser:hadoop /app/hadoop/tmp
+   85  sudo chmod -R 750 /app/hadoop/tmp
+   86  hadoop namenode
+   87  exit
+   88  cd /Desktop
+   89  mkdir Downloads
+   90  cp      /mnt/hgfs/64bit/eclipse-jee-indigo-SR2-linux-gtk-x86_64.tar.gz               ~/Downloads/ 
+   91  cd Downloads/
+   92  ls
+   93  gunzip eclipse-jee-indigo-SR2-linux-gtk-x86_64.tar.gz 
+   94  ls
+   95  pwd
+   96  ls
+   97  rm -f eclipse-jee-indigo-SR2-linux-gtk-x86_64.tar 
+   98  ls
+   99  cd ..
+  100  ls
+  101  rm -r Downloads/
+  102  ls
+  103  cp /mnt/hgfs/64bit/eclipse-jee-indigo-SR2-linux-gtk-x86_64.tar.gz /
+  104  cp /mnt/hgfs/64bit/eclipse-jee-indigo-SR2-linux-gtk-x86_64.tar.gz ~/
+  105  ls
+  106  gunzip  eclipse-jee-indigo-SR2-linux-gtk-x86_64.tar.gz 
+  107  tar -xvf eclipse-jee-indigo-SR2-linux-gtk-x86_64.tar 
+  108  cd eclipse
+  109  ls
+  110  eclipse
+  111  pwd
+  112  ls
+  113  cd ..
+  114  cp /mnt/hgfs/64bit/hadoop-eclipse-plugin-1.0.4.jar  ~/eclipse/plugins/
+  115  ls
+  116  cd eclipse
+  117  ls
+  118  eclipse
+  119  hadoop
+  120  jps
+  121  hadoop
+  122  hadoop namenode
+  123  sudo chmod -R 755 /app/hadoop/tmp
+  124  stop-all.sh
+  125  start-all.sh
+  126  stop-all.sh
+  127  hadoop namenode -format
+  128  hadoop namenode
+  129  vi /usr/local/hadoop/conf/core-site.xml 
+  130  hadoop namenode
+  131  stop-all.sh
+  132  hadoop namenode -format
+  133  jps
+  134  start-all.sh
+  135  jps
+  136  java
+  137  pwd
+  138  hadoop
+  139  jps
+  140  hadoop fs -ltr
+  141  start-all.sh
+  142  jsp
+  143  jps
+  144  hadoop -version
+  145  hadoop
+  146  hadoop version
+  147  clear
+  148  pwd
+  149  cd /usr/local/hadoop
+  150  ls
+  151  cd bin
+  152  ls
+  153  stop-all.sh
+  154  jps
+  155  start-dfs.sh
+  156  jps
+  157  jps -ls | wc -l
+  158  stop-dfs.sh
+  159  start-all.sh
+  160  jps
+  161  stop-all.sh
+  162  jps
+  163  exit
+  164  jps
+  165  start-all.sh
+  166  jps
+  167  jstack -9
+  168  jstack 3762
+  169  hostname
+  170  history
+[hduser@localhost Desktop]$ 
