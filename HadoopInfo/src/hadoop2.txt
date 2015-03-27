@@ -1,0 +1,118 @@
+hdfs -dfsadmin -safemode enter
+
+hadoop started all slaves report Master 
+
+Blocks information to NameNode (
+
+When hadoop cluster stared name node enter into special statred into 
+
+cd hadoop-2.0.0.cdh44.6.0/
+
+hdfs dfs -put ../wc-data data002
+$ yarn jar shar/hadoop/madreuce/hadoop-mapreduce/
+
+$/hadoop2.0.2 sbin/start-all.sh
+
+$ jps 
+5 Nodes Should run
+
+How to interact with Hadoop 
+=========================
+$ hdfs (opertions)
+dfs :To interacet with Hdfs use 
+Ex:$ hdfs dfs
+
+==============
+$hdfs dfs -mkdir input-data
+$hdfs dfs -ls
+
+to Check browser :
+localhost :50070 (browser infoamtion)
+
+$ hdfs dfs -copyFromLocal  etc/hadoop/hdfs-site.xml (copy From Local)
+
+$ hdfs dfs -put etc/hadoop/ .
+
+===========================
+$ hdfs dfs  -copyToLocal  /user/hdadmin/hadoop/hadoop-env.xml
+
+hdfs --->application level Not Kernal Level
+$ hdfs dfs -cp /   (With inHDFS)
+$hdfs dfs - rmr /usr/hdadmin/data ( rm -r )
+
+How to  Enable Trash or recylebin HDFS ?
+==============================
+we need replication factor those set ..
+
+how to specitfy replication factor ?
+    Commands Replication increased
+ii)chmod :: 
+hdfs dfs -chmod 777 data01
+7 user
+7 Group
+7 others
+===========================
+balancer -->cluster balance utility
+hdfs balancer
+hdfs fsck    (file system checking utilites)
+why it is showing 2151 KB Files ?
+  All  file size very small
+
+Copy large data inside our system
+file size :: 
+
+hdfs dfsadmin
+
+inside the hadoop2.0.0.cdh4..6.5
+Error
+
+when we coold start cluster at the time name node enter into the safe mode
+
+safe mode is read only mode
+
+It recreate the metadata
+
+How name node come out of safenode ???
+automatically
+
+when it get block inforamtion 
+
+hdfs -dfsadmin -safemode get
+hdfs -dfsadmin -safemode enter
+hdfs -dfsadmin -safemode leave
+
+safemode : 
+
+RefereshNode: 
+
+http://localhost:8088      Resource Manager
+
+Yarn Commands ::
+
+yarn jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.0.0-cdh4.6.0.jar wordcount data002 data002-out
+
+Suppose :
+
+How to handle small files in Hadoop ?
+
+i)we concreate all files
+ii) merge the files
+ANS: we can create & archive 
+
+How to archuve in?
+Create one archive ,
+Hadoop & MapReduce can expected archive file
+tar
+
+
+
+
+
+
+
+
+
+
+
+
+

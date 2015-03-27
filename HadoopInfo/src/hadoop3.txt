@@ -1,0 +1,74 @@
+hadoop fs -options
+you place all your files/folder inside your home direcory of linux
+ (/home/username)
+=========================================
+HDFS home direcory is ::
+ fs.default.name/user/dev
+  hdfs://localhost:54310/user/dev
+===============================
+Create File :
+ i) hadoop fs -mkdir foo :: If  not specifiy any path it is going home path
+
+ii) Local to hdfs copyFromLocal or put 
+  Copies the file from local file system to HDFS home direcory by name foo
+  hadoop fs -copyFromLocal /home/dev/foot.txt foo 
+ hadoop fs -put /home/dev/foo.txt bar 
+
+iii) hadoop fs -ls (list of files)
+
+iv) hadoop fs -copyToLocal foo /home/dev/foo_local
+ hadoop fs -get foo /home/dev/foo_local
+
+v) hadoop fs -cat foo (see the content of file)
+
+vi) hadoop fsck /user/training/sample -files -blocks -locations
+this will give the list of blocks which the file sample is made of and it's location
+Note : Blocks are present under dfs/data/current folder data
+   check hadoop.tmp.dir
+===================================================
+ 
+$ cd ${HADOOP_HOME}/bin
+pwd
+$ start-all.sh
+
+$ hadoop fs -ls /user/srinu 
+
+$ hadoop fs -ls/
+
+Check the Location where hadoop is installed in our system :: hdfs.xml & core-site.xml)
+
+$hadoop namenode -format ( For format purppose) it is using  (it is formating purose ) only
+
+$ cd /home/hadamin/hadoop-temp/ (Here checking the new folder created once the format commande is typed
+
+2 folders :: dfs ,mapred (Generated 
+hadoop fs -ls /home
+===========================================================
+rm -f  /home/training/hadoop-temp/
+
+First Go ::  in $cd /home/training/hadoop-temp/
+$ dir
+here we need to go dfs
+$cd dfs
+$ dir 
+$jps
+$start-all.sh
+===============================
+Goto localhost:50070 
+$hadoop fs -mkdir sampleDir
+here check the browser command
+$hadoop fs -mkdir /user/srinu
+$hadoop fs -ls /user (see the folder names)
+cd /home/training/training_material/
+tar -xvf access_log.tar.gz
+$hadoop fs -copyFromLocal access_log /user/srinu
+
+/user/srinu --->hdfs path
+
+hadoop fs -cp /user/srinu/acces_log /user/srinu/acess_log1
+hadoop fs -ls .Trash
+=================================
+
+http://stackoverflow.com/questions/24034894/reading-xml-file-using-jdom-api
+
+http://www.beingjavaguys.com/2013/06/read-xml-file-with-sax-parser.html
