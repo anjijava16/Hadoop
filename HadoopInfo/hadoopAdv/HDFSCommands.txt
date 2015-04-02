@@ -1,0 +1,30 @@
+		*****HDFS Commands**********
+
+hdfs dfs -mkdir wordcount
+hdfs dfs -ls
+
+cp 
+\ hdfs dfs -mkdir wordcountexample
+hdfs dfs -cp  wordcount.txt wordcount/
+hdfs dfs -put word.txt word.txt
+ hdfs dfs -cp word.txt wordcountexample/
+hdfs dfs -rm -r  wordCountOutput
+
+yarn jar NumberSumDriver.jar com.dataflair.hd.NumberSumDriver  wordcount/ anjiS
+yarn jar NumberSumDriver_Iwinner.jar com.iwinner.hadoop.operations.NumberSumDriver iwinnerInput/ iwinnerOutput
+yarn jar wordcount.jar com.iwinner.hadoop.ops.WordCount wordcountexample/ wordCountOutput
+
+======================================
+ vi abc.txt
+  602  hdfs dfs -copyFromLocal abc.txt
+  603  hdfs dfs -ls
+ 610  hdfs dfs -ls
+  611  hdfs dfs -mkdir testInput
+  612  hdfs dfs -cp welcome.txt testInput/
+  613  hdfs dfs -cp abc.txt testInput/
+
+
+
+com.iwinner.hadoop.ops.WordCount
+
+ hadoop dfs -copyFromLocal /home/hadoop/dft dft (Copy the data file 4300.txt to the Hadoop File System (HDFS):) 	

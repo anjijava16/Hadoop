@@ -1,0 +1,70 @@
+cp /media/cdrom/VMwareTools*.tar.gz ~/Desktop
+
+#cd /mnt/hgfs/64bit
+
+
+
+PWD: anji123
+
+groupUser :hadoop
+
+Name/ PWD:  hduser/hadoop123
+
+http://localhost:50070/dfshealth.jsp
+
+
+http://localhost:50030/jobtracker.jsp 
+
+jps
+
+
+ cp /mnt/hgfs/64bit/hadoop-eclipse-plugin-1.0.4.jar  ~/eclipse/plugins/
+
+=====================================================
+Hadoop Direcory Structor Place:
+/usr/local/hadoop/lib
+
+
+=======================
+First : start.all.sh (Hadoop is started)
+Second : Check jps
+$jps
+
+
+hadoop jar HadoopExamples/HadoopExample1.jar WordCount HadoopExamples/input/ HadoopExamples/out/
+
+hadoop jar HadoopExamples/HadoopExample1.jar WordCount HadoopExamples/input/fruits.txt  HadoopExamples/out/
+
+
+
+/home/hduser/Desktop/
+
+/usr/local/hadoop/input
+
+/home/hduser/Desktop/HadoopExamples/input
+
+
+/usr/local/hadoop/input
+
+
+
+
+dfs -copyFromLocal weatherdata2.txt hdfs://c
+
+
+192.168.186.131
+
+
+
+192.168.186.131
+hadoop jar HadoopExample1.jar WordCount /input/fruits.txt /output
+
+
+Published on Nov 9, 2014
+1) Distributed storage using block size and replication factor. 693 MB file is divided into 5 blocks of 128 MB and a block of 53 MB (total 6 blocks)
+2) Replication factor will be used to create multiple copies of each block to support fault tolerance
+3) Use hadoop fs -put command to copy files or hue file browser
+4) ifconfig -a is the command to get ip address of your cloudera vm and you need to run it on Cloudera VM
+5) ip_address:50070 can be used to launch namenode UI
+6) Namenode stores metadata of files in HDFS (file names, block ids and block locations etc) 	
+

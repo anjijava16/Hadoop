@@ -1,0 +1,17 @@
+http://www.highlyscalablesystems.com/3597/hadoop-installation-tutorial-hadoop-2-x/
+
+http://nextgenhadoop.blogspot.in/2013/10/steps-to-install-hadoop-220-stable.html
+
+# Command for formatting Name node.
+
+$ bin/hadoop namenode -format
+================================================
+# HDFS(NameNode & DataNode).
+
+$ sbin/hadoop-daemon.sh start namenode
+$ sbin/hadoop-daemon.sh start datanode
+=====================================================
+$ sbin/yarn-daemon.sh start resourcemanager
+$ sbin/yarn-daemon.sh start nodemanager
+$ sbin/mr-jobhistory-daemon.sh start historyserver
+====================================

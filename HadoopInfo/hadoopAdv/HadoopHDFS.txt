@@ -1,0 +1,161 @@
+Distributed Storage
+Fault Stp
+
+================================================================================
+
+Hadoop :: For Storgae & Processing data
+HDFS: (Hadoop Distrbute File System) :For Storgae & 
+MapReduce : Paralled Processing/Computing data
+
+=================================================================================
+
+
+1GB File Execution in single mechine it will take more time but if we run multiple mechine it is less time (Bcoz less load)
+
+===================================================================================
+Hadoop Master & Slave Archicutres
+
+Master :: One Master  :Single Name Node ,Secondary Name node ,JOB Tracker
+
+    ::: It is contain meta inforamtion .
+
+
+Slave::Multiple Slave :: DataNode,TaskTracker 
+
+Data inside the HDFS ===> Files ===>blocks ===>chunks  
+
+Demon process NameNode & Secondary NameNode  
+
+NameNode :Doesn't have data but meta of file system
+
+We will configure conigurration file for DataNode & NameNode
+
+MapReduce :JobTacker ,Task Tacker Dameon Service
+
+====================================================================
+
+We archive data looses by using the replication***
+
+======================================================================
+HDFS Stores internally Blocks ::
+Fault Tolerant by replication 
+ 
+NameNode /DataNode /Secomdary Name Node :::HDFS
+
+TaskTracker/JobTracker :MapRedcuer side ""Distributed Parallel Processing ""
+
+====================================================================
+
+
+Hadoop 2: MultiNode :Names nodes in hadoop 2
+
+DataNode :Data split multiple blocks
+
+Seconday NameNode :One type of Backup for NameNode
+
+DataNode:Original Data :It will store any data,
+
+Name Node :meta data in NameNode 
+===========================================================================
+JobTracker :Entire cluster one tracker
+============================================================================
+NameNode & Data Node :communting TCP protocal every time name node send some signal to datanode
+like heartbeats,balancing ,replication etc....
+NameNode sending signal to DataNodes ::
+===============================================================================
+By Default Replication ::3
+Block Size :: 64MB (Default)  
+
+File Divided into Block1,block2,block3,block4....etc
+
+
+For faultlorance(Data Loosses) using ::Replication Factor(3 Def)
+
+================================================================
+
+DataNode Sends HeartBeats
+Every 10th heart beat is BLock Report 
+NameNode builds metadata from block report
+TCP every 3 seconds
+NameNode is down,Then HDFS also down
+Hadoop 2.0 : NameNode is down No HDFS down 
+
+======================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
