@@ -1,0 +1,8 @@
+hadoop fs -ls /
+
+hadoop fs -put large.txt /demo/
+
+hadoop@orienit46:~$ hadoop fs -mkdir /test
+
+
+hadoop@orienit46:~$ hadoop fs -ls /
