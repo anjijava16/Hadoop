@@ -1,0 +1,24 @@
+hadoop fs -put <local intput> <hdfs_output>
+hadoop fs -put /etc/hosts /
+hadoop fs -put /etc/passwd /
+hadoop fs -cat /hosts
+
+hadoop jar <path of jar> <main class of job> <hdfs-input> <hdfs-output>
+
+hadoop jar /home/hadoop/work/testhadoop.jar com.orienit.hadoop.training.WordCountJob /demo/demoinput /demo/demooutput
+
+hadoop jar /home/hadoop/work/testhadoop.jar com.orienit.hadoop.training.WordCountJob -D mapred.reduce.tasks=2  /demo/demoinput /demo/demooutput-2
+
+hadoop jar /home/hadoop/work/testhadoop.jar com.orienit.hadoop.training.WordCountJob -Dmapred.job.queue.name=hadoop /demo/mywordcount /demo/demooutput
+
+hadoop jar /home/hadoop/work/testhadoop.jar com.orienit.hadoop.training.WordCountJob -Dmapred.output.compression.codec=org.apache.hadoop.io.compress.GzipCodec /demo/demoinput /demo/wordcount-gz
+
+hadoop fs -text /demo/wordcount-default/part-r-00000.deflate
+
+hadoop fs -text /demo/wordcount-gz/part-r-00000.gz
+
+hadoop jar /home/hadoop/work/testhadoop.jar com.orienit.hadoop.training.WordCountJob  -conf <path of conf gile> /demo/demoinput /demo/wordcount-dynamic
+
+hadoop job -set-priority job_201405010957_0002 HIGH
+
+hadoop jar ~/work/hadoop-1.1.2/hadoop-examples-1.1.2.jar wordcount /demo/demoinput /demo/wordcount
