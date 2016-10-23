@@ -2,7 +2,9 @@
 /home/hadoop/work/demo/input/input.txt /home/hadoop/work/demo/output
 
 
- demo/input/input.txt demo/output-01/
+hadoop fs -put /home/hadoop/work/demo/input/input.txt /demo/input/
+
+
 
 
 hadoop jar <path of jar> <main class of job> <hdfs-input> <hdfs-output>
