@@ -1,0 +1,1 @@
+Hadoop Basic info Application 
