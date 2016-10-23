@@ -7,6 +7,8 @@ hadoop@orienit46:~$ hadoop fs -mkdir /test
 
 hadoop@orienit46:~$ hadoop fs -ls /
 
+Hadoop Jar running Into the terminal::--->>>
 
 hadoop jar testhadoop.jar com.iwt.training.hadoop.wordcount.WordCountJob /home/hadoop/work/demo/input/input.txt /home/hadoop/demo/output/
 
+Hadoop Input files ::===>>
