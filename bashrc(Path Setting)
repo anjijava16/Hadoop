@@ -31,3 +31,21 @@
 
 #export HBASE_HOME=/home/hadoop/work/hbase-1.1.2
 #export PATH=$HBASE_HOME/bin:$PATH
+
+========================================
+
+
+# exporting the environment varaibles
+
+export JAVA_HOME=/usr/lib/jvm/java-1.6.0-openjdk
+export HADOOP_HOME=/home/hadoop/work/hadoop-1.1.2
+export HIVE_HOME=/home/hadoop/work/hive-0.10.0
+export DERBY_HOME=/home/hadoop/work/db-derby-10.10.1.1-bin
+export PIG_HOME=/home/hadoop/work/pig-0.11.1
+export HBASE_HOME=/home/hadoop/work/hbase-0.94.8
+export ZOOKEEPER_HOME=/home/hadoop/work/zookeeper-3.4.5
+export SQOOP_HOME=/home/hadoop/work/sqoop-1.4.3.bin__hadoop-1.0.0
+export FLUME_HOME=/home/hadoop/work/apache-flume-1.4.0-bin
+export OOZIE_HOME=/home/hadoop/work/oozie-3.3.2
+
+export PATH=$JAVA_HOME/bin:$HADOOP_HOME/bin:$HIVE_HOME/bin:$DERBY_HOME/bin:$PIG_HOME/bin:$HBASE_HOME/bin:$OOZIE_HOME/bin:$ZOOKEEPER_HOME/bin:$SQOOP_HOME/bin:$FLUME_HOME/bin:$PATH
