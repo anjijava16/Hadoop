@@ -1,0 +1,14 @@
+
+/home/hadoop/work/demo/input/input.txt /home/hadoop/work/demo/output
+
+
+ demo/input/input.txt demo/output-01/
+
+
+hadoop jar <path of jar> <main class of job> <hdfs-input> <hdfs-output>
+
+hadoop jar /home/hadoop/work/testhadoop.jar com.orienit.hadoop.training.WordCountJob /demo/demoinput /demo/demooutput
+
+hadoop jar hadoopRUN.jar com.iwt.training.hadoop.wordcount.WordCountJob /demo/input/input.txt demo/output-01/
+
+hadoop jar hadoopRUN.jar com.iwt.training.hadoop.wordcount.WordCountJob /demo/input /demo/output-01/
