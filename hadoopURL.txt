@@ -7,4 +7,8 @@ https://www.quora.com/Is-there-any-free-project-on-big-data-and-Hadoop-which-I-c
 
 https://acadgild.com/blog/scala-basics/
 
+https://www.youtube.com/watch?v=0u_qAtB3epE (MapReduce URL)
+
+
+
 
