@@ -1,0 +1,27 @@
+
+Tamizh chelvi
+Hadoop Instatiaion creates the following componets
+
+i) Namenode
+The master machine it controls all the meta data for the cluster 
+Ex:block make up a file ,datanodes those blocks are stored on
+ii) Datanode : Where HDFS actually stores the data and are usaually quite a few of these
+
+NameNode ad datanodes  provie the HDFS file system
+iii)Jobtracker : Manages the Jobs
+iv)TaskTracker run tasks pefrom by the job
+
+i) hadoop-env.sh :: export Java_HOME and Hadoop_HOME
+ii) core-site.xml (Location of NameNode(metadata)) (hdfs://localhost:9000)
+iii)core-site.xml (datanode )
+iv)hdfs-site.xml(Replication factor) dfs.repliation (1)
+
+hadoop namenode -format
+
+
+MapReduce : processing the data
+
+i) Map : Is a function which is used on a set of input values and calculates a set of key value pairs
+
+ii)Reduce : which takes inputs from map 
+
