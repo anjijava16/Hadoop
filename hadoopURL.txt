@@ -9,6 +9,9 @@ https://acadgild.com/blog/scala-basics/
 
 https://www.youtube.com/watch?v=0u_qAtB3epE (MapReduce URL)
 
+http://www.guru99.com/learn-oozie-in-5-minutes.html
+
+java2bigdata.blogspot.in
 
 
 
