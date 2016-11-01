@@ -14,4 +14,11 @@ http://www.guru99.com/learn-oozie-in-5-minutes.html
 java2bigdata.blogspot.in
 
 
+http://www.itversity.com/2016/09/15/big-data-engineer-immersion-classes/
 
+http://www.itversity.com/topic/bde-dataframes-sql-scala/
+
+http://www.itversity.com/topic/setup-and-architecture/
+
+
+http://www.hdfstutorial.com/sqoop-tutorial/
