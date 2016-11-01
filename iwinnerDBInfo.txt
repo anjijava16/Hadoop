@@ -1,0 +1,17 @@
+jdbc.driverClassName =com.mysql.jdbc.Driver
+#jdbc.databaseurl =jdbc:mysql://localhost:3306/iwinner1_wsdb
+#jdbc.username=iwinner1_wsuser
+#jdbc.password=%#)qS@fX~uKn
+
+======================================================================================================
+
+DBNAME : iwinner1_hivedb
+Username: iwinner1_hive
+Password: ]XTL1rU.T}N3
+
+========================================================================================================
+DatabaseName: iwinner1_hadoop
+Usename: iwinner1_hadoop
+PWD: E2%#K^szO4,m
+
+====================================================================================================
