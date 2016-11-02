@@ -22,3 +22,6 @@ http://www.itversity.com/topic/setup-and-architecture/
 
 
 http://www.hdfstutorial.com/sqoop-tutorial/
+
+
+http://hadooptutorial.info/formula-to-calculate-hdfs-nodes-storage/ (Online Site)
