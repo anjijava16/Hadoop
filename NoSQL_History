@@ -1,0 +1,36 @@
+www.nosql.org
+Google(GFS,MapReduce) 1998
+    |
+    ^
+ BigTable(HBase),Chubby(Zookper ,mointer)
+       |
+
+
+============
+i)Amazon
+   |
+   |
+  DynamoDB
+
+
+        BIgtable,     DynamoDB
+         |                |
+        ===========================
+                 FaceBook(Inbox Search)
+                  |
+                  Cassanadra (Arch followed by DynamoDB bcoz bothe arch same and followed by Bigtable whitepapers)
+                   |
+                  Apache Cassanadra (COmmerial Support DataStax) CQL (Cassanadra Query Langaugae) (Column Oreinted)
+
+
+===============================================================================================
+   BigTable 
+    |
+ Apache HBase (Coming from BigTable White Papaers) (Column Oreinted)
+   + Apache Phoenix(SQL)2014
+
+=======================
+ 10Gen
+   |
+  MongoDB(Documnet DB) (JSON)
+   
