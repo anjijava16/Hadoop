@@ -1,0 +1,63 @@
+LocalMode : Localmode
+Psudo Mode: PsudeoMode: HM (HMaster)
+ClusterMode: ClusterMode
+
+ClusterMode: ---> InternalZookeper: HM,HRS,HQ
+             ---> ExtrenalZookeper :HM,HRS,QM
+
+HMaster:HM
+HRegionServer:HRS
+HQuoramPeer: HQ
+QuoramPeerMain :QM
+
+
+Client Port : 2181
+Peerport : 2888
+
+
+Inside the hbase-site.xml(We need to set up the ClusterMode
+
+========================================================
+If we runn interal zooker it is generated the below pah files
+work/zoo_data:
+==> Data direct path should exists
+==> myid file should exists
+    inside the data dir path
+
+Inside the my id file zookper server id should there(0,1,2)
+Hbase : have interanl zookeper(that is totally taken care by Hmaster)
+    Bydefault internal zookper (we no need to install zookeper)
+   If we running into the Cluster mode we need to set the JAVA_HOME inside the hbase-env.sh set the JDK7 path
+
+
+i) Starting the Order
+           i)Zookeper ,HMaster,HRS
+ii) Stopping order
+          HRS,HM,ZK
+
+IN a cluster mode Zookper is start the first  order of the Starting not happne won't work properly
+
+ Running HQuoramPeer (means ZookKeeper)
+
+
+
+
+External ZookPer working: (Normal Zookper (QuoramPeer
+========================================
+
+verify : echo $zookeeper
+
+zoo.cfg : Inside this file last 3 lines (dataDir,clientPort,server.1)
+         server.1=localhost:2888:3888 (PeerPorta,leaderPort)
+
+create zoo_data folder 
+
+to Make export HBASE_MANAGES_ZK=false ( bcoz we using external zookper) at the restart the hbase at the it is running HMaster,HRS
+
+
+Practle : Interal purpose (CLuster with interanl)
+Proudction: Exeranl cluster (External zookper)
+
+
+
+  
