@@ -1,0 +1,11 @@
+
+
+	RDBMS		        Hbase					Cassnedra				MongoDB
+							
+	Database		Old: table ; New:nameSpace		Old: table ; New:nameSpace		DataBase
+							
+	Table			Old:ColumnFamily; New: Table		Old:ColumnFamily; New: Table		Collection
+							
+	ROW			ROW					ROW					Document
+							
+	Column			Column					Column					Field
