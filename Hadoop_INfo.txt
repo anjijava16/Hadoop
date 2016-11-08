@@ -1,0 +1,63 @@
+
+gw01.itversity.com:8080
+discuss.itversity.com
+
+http://nn01.itversity.com:18080/
+
+http://bigdata-labs.com/#/profile
+
+===========================
+
+
+
+2012  ---> Hadoop,Hive Pig
+
+2013  --> 1 POC'S(Sentimnet Any,Log Anya,SetJob,grepJob)
+
+2014  --> 1 POC + atlest one project
+
+2015  --> You should one big data project
+
+2016 --> Any Project Try to  migrate to other project 
+
+============================================================================
+RDBMS --->> Hadoop Using Sqoop Migration 
+
+================================================
+0-6 months  : Self Learn (Hive Querys,pig Scripts)  Acedamic,Training (Fresher) POC
+6 -1 year   : Last one Year working Hadoop (at least 1 Project and 1 POC) 
+1-1.5 Year  : 1 Projet mandtory .invovling 1 project
+1.5-2 Years : minum 2 Project
+
+Imp Technolgoes : Java ,SQL
+ 
+Don't use Keyword Apache 
+
+Don't use Version Number 
+
+<<Project Name:>> 
+<<Project Desc:>> 
+<<Environment::>>
+<<Roles &Responsibilites>>
+
+=======================
+<<Client Name>> : not imp
+<<Team Size>>  : not imp
+<<Company Name>>
+<<Year>>
+
+
+LinkedIn
+FaceBook
+Indeed (Search Sample Resumes)
+
+
+Problems
+
+i) Memory issues 
+
+ii) Compabilities
+
+iii)Tunning Parameters Search in blog Jan or April info
+
+IO.sort.mb=100 change 1GB size (Interally depedents on RAM)
