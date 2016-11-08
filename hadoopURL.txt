@@ -30,3 +30,9 @@ http://www.edureka.co/blog/hdfs-tutorial?utm_source=linkedin&utm_campaign=linked
 
 http://www.edureka.co/blog/apache-hadoop-hdfs-architecture/?utm_source=blog&utm_medium=right-related-blogs&utm_term=hdfs-tutorial
 http://www.edureka.co/blog/interview-questions/top-50-hadoop-interview-questions-2016/?utm_source=blog&utm_medium=relevant-posts&utm_campaign=hadoop-interview-questions-pig-21jan16
+
+http://www.edureka.co/blog/interview-questions/hadoop-interview-questions-hadoop-cluster/?utm_source=blog&utm_medium=relevant-posts&utm_campaign=top-50-hadoop-interview-questions-2feb16
+
+http://www.edureka.co/blog/4-ways-to-use-R-and-Hadoop-together?utm_source=blog&utm_medium=related-posts&utm_campaign=top-50-hadoop-interview-questions-you-should-prepare-for-in-2016-22dec15
+
+http://www.edureka.co/blog/interview-questions/hadoop-interview-questions-pig/?utm_source=blog&utm_medium=relevant-posts&utm_campaign=top-50-hadoop-interview-questions-2feb16
