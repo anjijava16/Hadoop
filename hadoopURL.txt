@@ -25,3 +25,8 @@ http://www.hdfstutorial.com/sqoop-tutorial/
 
 
 http://hadooptutorial.info/formula-to-calculate-hdfs-nodes-storage/ (Online Site)
+
+http://www.edureka.co/blog/hdfs-tutorial?utm_source=linkedin&utm_campaign=linkedin-hdfs-tutorial&utm_medium=post
+
+http://www.edureka.co/blog/apache-hadoop-hdfs-architecture/?utm_source=blog&utm_medium=right-related-blogs&utm_term=hdfs-tutorial
+http://www.edureka.co/blog/interview-questions/top-50-hadoop-interview-questions-2016/?utm_source=blog&utm_medium=relevant-posts&utm_campaign=hadoop-interview-questions-pig-21jan16
