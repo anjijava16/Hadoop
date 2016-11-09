@@ -1,0 +1,27 @@
+In Hbase is trasaction purpose we are using for hbase related setup we need to change in hbase-site.xml and hbase-env.sh file
+
+other it is getting expetion
+
+Hbase first start the interlZookper and HQuorumPeer
+     Second start the HRegionServer
+     3rd it is starting HMaster
+     
+     ========================
+NOTE: Not the path in Hbase-evn.sh
+
+localhost: +======================================================================+
+localhost: |                    Error: JAVA_HOME is not set                       |
+localhost: +----------------------------------------------------------------------+
+localhost: | Please download the latest Sun JDK from the Sun Java web site        |
+localhost: |     > http://www.oracle.com/technetwork/java/javase/downloads        |
+localhost: |                                                                      |
+localhost: | HBase requires Java 1.7 or later.                                    |
+localhost: +======================================================================+
+starting master, logging to /home/hadoop/work/hbase-1.1.2/logs/hbase-hadoop-master-localhost.out
+starting regionserver, logging to /home/hadoop/work/hbase-1.1.2/logs/hbase-hadoop-1-regionserver-localhost.out
+hadoop@localhost:~$ start-hbase.sh
+localhost: starting zookeeper, logging to /home/hadoop/work/hbase-1.1.2/bin/../logs/hbase-hadoop-zookeeper-localhost.out
+starting master, logging to /home/hadoop/work/hbase-1.1.2/logs/hbase-hadoop-master-localhost.out
+starting regionserver, logging to /home/hadoop/work/hbase-1.1.2/logs/hbase-hadoop-1-regionserver-localhost.out
+hadoop@localhost:~$ ^C
+hadoop@localhost:~$
