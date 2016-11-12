@@ -1,0 +1,1 @@
+ hadoop jar hadoopTest.jar com.iwinner.dashboard.mapreduce.WordCountJob  /Input_mr  /output_mr
