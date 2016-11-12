@@ -1,0 +1,51 @@
+
+================================================================================
+================================================================================
+50070 is the default UI port for namenode . while 8020/9000 is the Inter Process Communicator port (IPC) for namenode.
+	
+
+================================================================================
+================================================================================  
+
+The default Hadoop ports are as follows: (HTTP ports, they have WEB UI):
+
+Daemon                   Default Port  Configuration Parameter
+-----------------------  ------------ ----------------------------------
+Namenode                 50070        dfs.http.address
+Datanodes                50075        dfs.datanode.http.address
+Secondarynamenode        50090        dfs.secondary.http.address
+Backup/Checkpoint node?  50105        dfs.backup.http.address
+Jobracker                50030        mapred.job.tracker.http.address
+Tasktrackers             50060        mapred.task.tracker.http.address
+
+Internally, Hadoop mostly uses Hadoop IPC, which stands for Inter Process Communicator, to communicate amongst servers. The following table presents the ports and protocols that Hadoop uses. This table does not include the HTTP ports mentioned above.
+
+Daemon      Default Port        Configuration Parameter     
+------------------------------------------------------------
+Namenode    8020                fs.default.name         
+Datanode    50010               dfs.datanode.address        
+Datanode    50020               dfs.datanode.ipc.address                                    
+Backupnode  50100               dfs.backup.address          
+
+
+========================================================================
+======================================================================
+
+
+
+That is because default is different for different hadoop configurations and distributions. We can always configure port by changing fs.default.name or fs.defaultFS properties as below in core-site.xml
+
+<configuration>
+ <property>
+     <name>fs.default.name</name>
+     <value>hdfs://localhost:9000</value>
+ </property>
+</configuration>
+
+For Hadoop 1.0.4 if I dont mention port number like below
+
+<value>hdfs://localhost</value>
+
+then default port taken is 8020. But for some of the version like .20 i read it is 9000. So it is dependent on the version of hadoop you are using.
+
+But all the configuration and distributation are using 50070 as standard port number for HDFS ui.
