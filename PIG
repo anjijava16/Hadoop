@@ -1,0 +1,54 @@
+PIG : Data FLow Lang
+It is not database nor Datawarehouse
+PIG doesn't require any external metaStore
+
+DataTypes
+i)Simple DataTypes : int ,float ,double,byte boolean ,bytearray
+ ii)ComplexDataTypes: Bag,Tuple,Map,Field
+ Bag : Collection Of Tuples (Table):  {()}
+Tuple : Collection Of Field (ROW): ()
+Field : Just like a Column 
+Map : Combination OF Key and Value
+
+=============
+
+Schema Design
+   A) Full Schema
+   B)Partially Schema
+   C)WithOutSchema
+
+Hive : Is fully Schema Design
+=================
+
+Functions in PIG
+ A)LoadFunc
+ B)StoreFunc
+ C)FilterFunc
+ D)EvalFunc
+
+
+===========================
+
+By Default Field Separtor : \t
+By Default DataType : byteArray
+PigShell : graunt
+Pig Process Name: RunJar
+
+=====================
+
+Pig Follows "LazyEvaluation"
+
+Bcoz Its backend Follows HDFS
+
+==========
+PIG Local Mode not require to Hadoop Start
+
+pig -x local
+
+Pig will use localFs to Store the data
+
+===========================
+Hadoop need to start (Pseuedo Mode and ClusterMode)
+
+pig -x mapreduce
+
