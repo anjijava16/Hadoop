@@ -1,6 +1,8 @@
 Hadoop URLS 
 
 
+http://ybhavesh.blogspot.my/2015/08/proof-of-concept-or-poc-on-customer.html (POC"S)
+
 http://www.videotouch.tv/channels/148/videos
 
 https://www.quora.com/Is-there-any-free-project-on-big-data-and-Hadoop-which-I-can-download-and-do-practice
