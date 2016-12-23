@@ -1,5 +1,7 @@
 hadoop fs -ls /
 
+
+> hadoop fs -mkdir -p /user/hadoop/dir1/dir2/demo 
 hadoop fs -put large.txt /demo/
 
 hadoop@orienit46:~$ hadoop fs -mkdir /test
