@@ -1,6 +1,11 @@
 Hadoop URLS 
 
 
+http://spark.praveendeshmane.co.in/spark/spark-shell-scala-examples.jsp
+http://hadoop.praveendeshmane.co.in/hadoop/hadoop-2-6-4-stand-alone-mode-installation-on-ubuntu-14-04.jsp
+
+
+
 http://ybhavesh.blogspot.my/2015/08/proof-of-concept-or-poc-on-customer.html (POC"S)
 
 ([^ ]*) ([^ ]*) ([^ ]*) 
