@@ -2,6 +2,8 @@ Hadoop URLS
 
 https://www.youtube.com/watch?v=-CRSOm2AkUc&list=PLf0swTFhTI8qZ2GkrOQQ5CA3b_RX7p8ch&index=8 (Profile Setup) 
 
+http://blog.ditullio.fr/2015/10/17/mini-cluster-part-ii-node-network-setup/ 
+
 
 http://spark.praveendeshmane.co.in/spark/spark-shell-scala-examples.jsp
 http://hadoop.praveendeshmane.co.in/hadoop/hadoop-2-6-4-stand-alone-mode-installation-on-ubuntu-14-04.jsp
